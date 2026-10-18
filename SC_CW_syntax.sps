@@ -19,3 +19,6 @@ ONEWAY DV_Addiction BY @1.1Whatisyouragegroup
   /STATISTICS DESCRIPTIVES
   /MISSING ANALYSIS.
 EXECUTE.
+
+FREQUENCIES VARIABLES=@1.1Whatisyouragegroup @1.2Whatisyourgender @1.3Whatisyourcurrentoccupation @1.4Whatlanguagedoyouprefermostfordigitalcontent @1.5Whichdigitalmediaplatformdoyouspendthemosttimeon
+  /ORDER=ANALYSIS.
